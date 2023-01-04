@@ -4,7 +4,7 @@ steps:
   args: ['-c', 'gcloud config set app/cloud_build_timeout 1600 && gcloud app deploy']
 timeout: '1600s'
      
-
+ 
 # steps:
 # # build the docker images and store in container registry in github.com folder
 # - name: 'gcr.io/cloud-builders/docker' # it is inbuilt images and below tasks run on this images/instance
